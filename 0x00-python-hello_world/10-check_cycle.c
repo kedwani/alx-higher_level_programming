@@ -13,6 +13,8 @@ int check_cycle(listint_t *list)
 	int i, j;
 	listint_t *h = list;
 
+	if (list == NULL)
+		return (0);
 /*intialize the arrray */
 	p[0] = h;
 	p[1] = NULL;
