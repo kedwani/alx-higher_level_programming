@@ -9,7 +9,7 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *p[1024];
+	listint_t *p[500];
 	int i, j;
 	listint_t *h = list;
 
