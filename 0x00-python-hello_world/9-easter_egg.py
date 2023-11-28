@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 i = " is better than "
 print("The Zen of Python, by Tim Peters\nBeautiful{i}ugly./nExplicit{i}implicit\
 .\nSimple{i}complex./nComplex{i}complicated.\nFlat{i}nested.\nSparse{i}dense.\n\
@@ -9,3 +10,7 @@ ugh that way may not be obvious at first unless you're Dutch.\nNow{i}never.\nAl\
 though never is often {i[5:]}*right* now.\nIf the implementation is hard to exp\
 lain, it's a bad idea.\nIf the implementation is easy to explain, it may be a \
 good idea.\nNamespaces are one honking great idea -- let's do more of those!")
+=======
+#!/usr/bin/python3
+import this
+>>>>>>> b969a944ef3c05bc0ccac6a86d60629c2241eb51
