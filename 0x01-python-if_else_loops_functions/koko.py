@@ -1,1 +1,2 @@
-print("")
+str = ""
+print(len(str))
