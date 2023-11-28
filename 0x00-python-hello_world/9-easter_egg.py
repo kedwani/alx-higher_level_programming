@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 i = " is better than "
 print("The Zen of Python, by Tim Peters\nBeautiful{i}ugly./nExplicit{i}implicit\
 .\nSimple{i}complex./nComplex{i}complicated.\nFlat{i}nested.\nSparse{i}dense.\n\
