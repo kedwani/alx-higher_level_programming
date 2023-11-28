@@ -1,9 +1,7 @@
-echo"#include "main.h""> 0-positive_or_negative.py
 echo"#include "main.h""> 100-print_tebahpla.py
 echo"#include "main.h""> 10-add.py
 echo"#include "main.h""> 11-pow.py
 echo"#include "main.h""> 12-fizzbuzz.py
-echo"#include "main.h""> 1-last_digit.py
 echo"#include "main.h""> 2-print_alphabet.py
 echo"#include "main.h""> 3-print_alphabt.py
 echo"#include "main.h""> 4-print_hexa.py
@@ -12,4 +10,5 @@ echo"#include "main.h""> 6-print_comb3.py
 echo"#include "main.h""> 7-islower.py
 echo"#include "main.h""> 8-uppercase.py
 echo"#include "main.h""> 9-print_last_digit.py
+echo"#include "main.h""> e
 echo"#include "main.h""> README.md
