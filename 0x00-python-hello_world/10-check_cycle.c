@@ -16,11 +16,10 @@ int check_cycle(listint_t *list)
 	if (list == NULL)
 		return (0);
 
-	p = h->next;
-
+	p = list->next;
 	for (i = 0; h->next != NULL; ++i)
 	{
-		for (j = 0; p->next != NULL && p->next != h ; ++j)
+		for (j = i; p->next != NULL && p->next != h && j<1024; ++j)
 		{
 			if (p == h)
 				return(1);
