@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 import add_0
-number = add_0.add(1, 2)
-print(number)
+a = 1
+b = 2
+number = add_0.add(a, b)
+print(a, "+", b , "=", number)
