@@ -3,5 +3,5 @@ if __name__ == "__main__":
     from add_0 import add
     a = 1
     b = 2
-    number = add_0.add(a, b)
+    number = add(a, b)
     print("{} + {} = {}".format(a, b, number)
