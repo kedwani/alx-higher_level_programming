@@ -1,18 +1,18 @@
- #include /usr/bin/python30-print_list_integer.py
- #include /usr/bin/python3100-print_python_list_info.c
- #include /usr/bin/python310-divisible_by_2.py
- #include /usr/bin/python311-delete_at.py
- #include /usr/bin/python312-switch.py
- #include /usr/bin/python313-is_palindrome.c
- #include /usr/bin/python31-element_at.py
- #include /usr/bin/python32-replace_in_list.py
- #include /usr/bin/python33-print_reversed_list_integer.py
- #include /usr/bin/python34-new_in_list.py
- #include /usr/bin/python35-no_c.py
- #include /usr/bin/python36-print_matrix_integer.py
- #include /usr/bin/python37-add_tuple.py
- #include /usr/bin/python38-multiple_returns.py
- #include /usr/bin/python39-max_integer.py
- #include /usr/bin/python3e
- #include /usr/bin/python3lists.h
- #include /usr/bin/python3README.md
+echo " #include /usr/bin/python3" 0-print_list_integer.py
+echo " #include /usr/bin/python3" 100-print_python_list_info.c
+echo " #include /usr/bin/python3" 10-divisible_by_2.py
+echo " #include /usr/bin/python3" 11-delete_at.py
+echo " #include /usr/bin/python3" 12-switch.py
+echo " #include /usr/bin/python3" 13-is_palindrome.c
+echo " #include /usr/bin/python3" 1-element_at.py
+echo " #include /usr/bin/python3" 2-replace_in_list.py
+echo " #include /usr/bin/python3" 3-print_reversed_list_integer.py
+echo " #include /usr/bin/python3" 4-new_in_list.py
+echo " #include /usr/bin/python3" 5-no_c.py
+echo " #include /usr/bin/python3" 6-print_matrix_integer.py
+echo " #include /usr/bin/python3" 7-add_tuple.py
+echo " #include /usr/bin/python3" 8-multiple_returns.py
+echo " #include /usr/bin/python3" 9-max_integer.py
+echo " #include /usr/bin/python3" e
+echo " #include /usr/bin/python3" lists.h
+echo " #include /usr/bin/python3" README.md
