@@ -18,7 +18,7 @@ int is_palindrome(listint_t **head)
 
     if (*head == NULL)
         return (1);
-    
+ 
     start = *head;
     len = listint_len(start);
     len_cyc = len * 2;
