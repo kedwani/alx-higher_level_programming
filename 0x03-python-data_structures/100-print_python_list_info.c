@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
 #include <Python.h>
-=======
 #include "lists.h"
 
->>>>>>> 23adef731c7d550b184701d05a2fbdc78f42f0ce
 /**
  * print_python_list_info - Print some basic info about Python lists
  * @p: PyObject
