@@ -5,5 +5,5 @@ def multiple_returns(sentence):
     if length == 0:
         result = (0, None)
     else:
-        result = (length, sentence[])
+        result = (length, sentence[0])
     return res
