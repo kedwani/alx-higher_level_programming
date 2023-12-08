@@ -10,3 +10,5 @@ cp ~/my_tools/README.md .
 chmod +x *
 ./e
 printf("ALL IS GOOD")
+
+sed -i 's/^/echo "#!\/usr\/bin\/python3" >/'
