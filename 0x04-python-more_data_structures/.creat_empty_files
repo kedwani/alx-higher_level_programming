@@ -2,7 +2,7 @@
 ls|sort > ../.files_names
 chmod +x ../.files_names
 rm -r *
-sed -i -e 's/^/echo "/usr/bin/pythin3" > /' ../.files_names
+sed -i 's/^/echo \"/usr/bin/pythin3\" > /' ../.files_names
 mv ../.files_names .
 cp ~/my_tools/e .
 ./.files_names
