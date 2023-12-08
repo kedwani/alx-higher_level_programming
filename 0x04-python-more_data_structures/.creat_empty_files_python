@@ -3,7 +3,7 @@ ls|sort > ../.files_names
 chmod +x ../.files_names
 rm -r *
 mv ../.files_names .
-sed -i 's/^/echo "#!\/usr\/bin\/python3" >/' .files_names
+sed -e -i 's/^/echo "#!\/usr\/bin\/python3" >/' .files_names
 cp ~/my_tools/e .
 cp ~/my_tools/README.md .
 ./.files_names
