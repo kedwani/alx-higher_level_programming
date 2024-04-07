@@ -1,4 +1,4 @@
-sThe ``add_integer`` module
+The ``add_integer`` module
 ======================
 
 Using ``add_integer``
@@ -14,10 +14,12 @@ Using ``add_integer``
 
 >>> add_integer(1)
 99
+>>> add_integer("",6)
+99
+>>> add_integer(" ",6)
+99
 >>> add_integer(1,2)
 3
->>> add_integer(-1,-5)
--6
 >>> add_integer(1.5,8.7)
 9
 >>> add_integer(-1.5,8.7)
@@ -26,10 +28,18 @@ Using ``add_integer``
     Traceback (most recent call last):
     ...
     TypeError: a must be an integer
+>>> add_integer("","keke")
+    Traceback (most recent call last):
+    ...
+    TypeError: b must be an integer
 >>> add_integer("",9)
 	Traceback (most recent call last):
     	...
 	TypeError: a must be an integer
+>>> add_integer(9,"")
+	Traceback (most recent call last):
+    	...
+	TypeError: b must be an integer
 >>> add_integer(" "," ")
         Traceback (most recent call last):
     	...
@@ -52,4 +62,9 @@ TypeError: a must be an integer
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
->>> add_integer(9999999999999999999999,-65)
+>>> add_integer(45,None)
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+>>> add_integer(99999999999999999999999999999,-65)
+
