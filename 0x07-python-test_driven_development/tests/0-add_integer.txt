@@ -23,17 +23,17 @@ Using ``add_integer``
 >>> add_integer(-1.5,8.7)
 7
 >>> add_integer("lolo","")
-Traceback (most recent call last):
+    Traceback (most recent call last):
     ...
     TypeError: a must be an integer
 >>> add_integer("",9)
-Traceback (most recent call last):
-	...
+	Traceback (most recent call last):
+    	...
 	TypeError: a must be an integer
 >>> add_integer(" "," ")
-Traceback (most recent call last):
-...
-TypeError: a must be an integer
+        Traceback (most recent call last):
+    	...
+    	TypeError: a must be an integer
 >>> add_integer(1,"")
 Traceback (most recent call last):
 ...
