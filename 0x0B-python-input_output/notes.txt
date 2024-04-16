@@ -23,3 +23,11 @@ ___________________________ Project Notes ____________________________________
 		- both modes will create the file if not exist automatically.
 		- when use the append mode >> you should add \n in the start of the appended text to add it in new line (not done by default )
 		
+		
+4- To Read And Write Coplicated Data Structe :-
+	- we use json codeing and decoding like this :-
+	import json
+	json.dumps(str) #return a json representation for an object
+	json.dump(str,f_obj) #to write in an opened file by a json coding.
+	json.load(f_obj) #to read from a json file and Return the readed decoded text.
+	
