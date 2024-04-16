@@ -1,4 +1,3 @@
-echo "#!/usr/bin/python3" > #0-read_file.py#
 echo "#!/usr/bin/python3" > 0-read_file.py
 echo "#!/usr/bin/python3" > 100-append_after.py
 echo "#!/usr/bin/python3" > 101-stats.py
@@ -14,5 +13,6 @@ echo "#!/usr/bin/python3" > 6-load_from_json_file.py
 echo "#!/usr/bin/python3" > 7-add_item.py
 echo "#!/usr/bin/python3" > 8-class_to_json.py
 echo "#!/usr/bin/python3" > 9-student.py
+echo "#!/usr/bin/python3" > e
 echo "#!/usr/bin/python3" > __pycache__
 echo "#!/usr/bin/python3" > README.md
