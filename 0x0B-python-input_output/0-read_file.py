@@ -3,6 +3,7 @@
 contain the read_file function
 """
 
+
 def read_file(filename=""):
     """
     Read the contents of a file and print them to the console.
