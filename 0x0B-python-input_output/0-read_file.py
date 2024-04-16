@@ -2,3 +2,4 @@
 def read_file(filename=""):
     with open(filename, encode="utf-8") as f
     print(f.read)
+    
