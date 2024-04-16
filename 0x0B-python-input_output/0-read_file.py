@@ -14,15 +14,10 @@ def read_file(filename=""):
     Returns:
     None
     """
-    # Open the file with specified filename for reading, using UTF-8 encoding
     with open(filename, encoding="utf-8") as f:
-        # Read the contents of the file into the variable 'a'
         a = f.read()
-        # Print the contents of the file to the console
         print(a, end='')
 
 
-# If this script is executed directly, for example using 'python read_file.py'
-if __name__ == "__main__":
-    # Call the read_file function with a default filename (empty string)
+    if __name__ == "__main__":
     read_file()
