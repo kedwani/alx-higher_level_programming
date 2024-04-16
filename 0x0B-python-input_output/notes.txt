@@ -1,0 +1,25 @@
+___________________________ Project Notes ____________________________________
+1- TO OPEN A FILE :- 
+	open () function that take arguments :-
+		1- mandatory arg is a string of file complete path.
+		2- optional arg is the mode of openning. (default if not setted is "r")
+		3- optional arg is the encoding method.  (default value is dependant on the machine system )()
+	- prefered to use the with statement to avoide close errors , the with state is 
+		with open ("file_name") as "file_object" :
+			"""write your code here"""
+	- After the with block ends, Python automatically closes the file
+		
+2- TO READ A FILE AFTER OPEN IT :- 
+	read() function that may take 
+	
+	
+3- TO WRITE TO A FILE AFTER OPEN IT :-
+	write("string_to_be_added") function:- 
+	- RETURN:- 
+		number of characters written into the file 
+	- can be used into 2 modes:- 
+		1- append the data to the file (by using mode='a' in open function)
+		2- overwrite the data to the file  (by using mode='w' in open function)
+		- both modes will create the file if not exist automatically.
+		- when use the append mode >> you should add \n in the start of the appended text to add it in new line (not done by default )
+		
