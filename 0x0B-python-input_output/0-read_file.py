@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+contain the read_file function
+"""
 
 def read_file(filename=""):
     """
