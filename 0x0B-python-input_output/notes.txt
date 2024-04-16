@@ -29,5 +29,6 @@ ___________________________ Project Notes ____________________________________
 	import json
 	json.dumps(str) #return a json representation for an object
 	json.dump(str,f_obj) #to write in an opened file by a json coding.
+	json.loads(f_obj) #(oppsit to dumps)to return object representation from a json file.
 	json.load(f_obj) #to read from a json file and Return the readed decoded text.
 	
