@@ -1,6 +1,6 @@
 pyrhon notes
 
-       - statnebts in mudule executed only the first time the module name is encountered in an import statemen
+       - statments in mudule executed only the first time the module name is encountered in an import statemen
        		   (They are also run if the file is executed as a script.)
        - from fibo import * imports all names except those beginning with an underscore (_)
        - options od import :-
@@ -9,7 +9,7 @@ pyrhon notes
 	 from fibo import *         #import all the funs (not advised)
 	 import fibo as fib        #name of module become fib but access function as attribute
 	 from fibo import fib as fibonacci      #best one
-       - it is sdvised to use command line arguments with if statement that __name__ == __main__
+       - it is advised to use command line arguments with if statement that __name__ == __main__
        - when imported module __name__ is a varaiable contain the module name
        - Python caches compiled version of each module __pycache__ directory under the name module.version.pyc
        - sys.path is a list of strings that determines the interpreter’s search path for modules
