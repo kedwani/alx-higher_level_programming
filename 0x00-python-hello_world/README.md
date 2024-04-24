@@ -23,4 +23,8 @@ on python :
    name = "kedwani"
    age = 15
    "Hello, {}! You're {} years old.".format(name, age)
-   -
+   -f"" also used to format string with specifiers like that
+   age = 24
+   print(f"i am {age:d} years old")
+   #:d used to format output to be integer
+   #:f used to format output to be float
